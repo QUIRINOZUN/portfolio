@@ -1,0 +1,357 @@
+QuiriNotes — Gestor Académico Inteligente (WEB)
+
+Plataforma web full-stack enfocada en la organización académica y gestión de contenido educativo. Desarrollada con Angular, PHP y MySQL, permite administrar cursos, unidades de aprendizaje, apuntes estructurados, tareas pendientes y recursos multimedia dentro de una experiencia moderna e intuitiva.
+
+El sistema implementa una arquitectura SPA (Single Page Application) conectada mediante una API RESTful, integrando autenticación de usuarios, comunicación cliente-servidor y persistencia de datos en tiempo real. Además, incorpora módulos para gestión de notas tipo Cornell, administración de tareas académicas y consumo de APIs externas para recursos visuales.
+
+Tecnologías utilizadas
+Angular 19
+TypeScript
+PHP
+MySQL
+HTML5 & CSS3
+APIs REST
+Git & GitHub
+Funcionalidades principales
+Sistema de autenticación y registro de usuarios
+Gestión de cursos y unidades académicas
+Editor de apuntes estructurados
+Administración de tareas y seguimiento académico
+Integración de recursos multimedia
+Arquitectura cliente-servidor desacoplada
+
+---------------------------------------------------------------------
+
+ChatAi — Microservicio de Inteligencia Artificial con Streaming en Tiempo Real (IA)
+
+Microservicio de inteligencia artificial desarrollado con Node.js y Azure OpenAI, diseñado para funcionar como intermediario entre una interfaz web y servicios avanzados de procesamiento de lenguaje natural. El proyecto implementa una arquitectura desacoplada basada en HTTP y WebSockets, permitiendo conversaciones síncronas y respuestas en streaming en tiempo real.
+
+El sistema utiliza un enfoque inspirado en RMI (Remote Method Invocation), centralizando la ejecución de métodos mediante un único endpoint capaz de despachar diferentes operaciones relacionadas con IA. Además, incorpora manejo de concurrencia, colas de procesamiento y comunicación bidireccional para optimizar la experiencia del usuario.
+
+Tecnologías utilizadas
+Node.js
+Express.js
+Azure OpenAI
+WebSockets
+JavaScript (ES6+)
+HTML5 & CSS3
+REST API
+LocalStorage
+Dotenv
+Funcionalidades principales
+Chat inteligente conectado a Azure OpenAI
+Streaming de respuestas en tiempo real mediante WebSockets
+Arquitectura basada en microservicios desacoplados
+Sistema de colas y control de concurrencia
+Middleware de seguridad y validación
+Comunicación híbrida HTTP + WebSocket
+Persistencia local del historial de conversaciones
+Gestión de autenticación mediante API Keys
+
+---------------------------------------------------------------------
+
+Practica3Servicio — Aplicación Android con Servicios en Segundo Plano (MOBIL)
+
+Aplicación móvil nativa desarrollada para Android enfocada en el uso de servicios en segundo plano (Android Services), permitiendo la ejecución de procesos persistentes incluso fuera de la interfaz principal de la aplicación. El proyecto implementa una arquitectura basada en componentes Android y patrones modernos de desarrollo móvil utilizando Material Design 3.
+
+La aplicación está orientada al registro y visualización dinámica de tiempos o vueltas (laps), integrando comunicación entre actividades y servicios mediante actualizaciones en tiempo real dentro de una interfaz responsiva y optimizada para múltiples dispositivos.
+
+Tecnologías utilizadas
+Android Studio
+Java / Kotlin
+Android Services
+Material Design 3
+RecyclerView
+AndroidX
+Gradle
+XML Layouts
+Funcionalidades principales
+Ejecución de procesos en segundo plano mediante Services
+Registro dinámico de tiempos y vueltas
+Actualización en tiempo real de la interfaz
+Arquitectura Android moderna con AndroidX
+Diseño responsivo con Material Design
+Gestión eficiente del ciclo de vida de la aplicación
+Compatibilidad con múltiples idiomas y configuraciones regionales
+
+---------------------------------------------------------------------
+
+Gestión de Calificaciones — Sistema Académico Móvil para Android (mobil)
+
+Aplicación móvil nativa desarrollada en Kotlin para la gestión académica de estudiantes, materias y calificaciones dentro de una institución educativa. El sistema integra autenticación de usuarios, administración de registros académicos y generación de reportes detallados mediante una arquitectura Android moderna basada en SQLite y SharedPreferences.
+
+La aplicación implementa un modelo híbrido de persistencia de datos, utilizando SQLite para el manejo relacional de información académica y SharedPreferences para el control de acceso y configuración de usuarios. Además, incorpora lógica de evaluación académica automatizada y formularios dinámicos optimizados para una experiencia intuitiva.
+
+Tecnologías utilizadas
+Kotlin
+Android SDK
+SQLite
+SharedPreferences
+Material Design 3
+AndroidX
+XML Layouts
+Gradle
+Funcionalidades principales
+Sistema de autenticación y registro de usuarios
+Gestión de alumnos y materias
+CRUD completo de calificaciones
+Generación de reportes académicos
+Cálculo automático de promedios y estados académicos
+Persistencia híbrida con SQLite y SharedPreferences
+Interfaz moderna basada en Material Design
+Formularios dinámicos y validación de datos
+
+---------------------------------------------------------------------
+
+HIDRALIA — Sistema Inteligente de Monitoreo de Presas IoT  (IoT)
+
+Solución IoT desarrollada para el monitoreo y análisis de infraestructuras hidráulicas mediante sensores inteligentes, procesamiento en tiempo real y comunicación segura con la nube. El sistema utiliza un enfoque de Edge Computing con ESP32 para detectar riesgos ambientales y estructurales, automatizando respuestas críticas como apertura de compuertas y activación de alarmas.
+
+HIDRALIA implementa una arquitectura distribuida basada en MQTT Seguro (TLS/SSL), Node.js y Firebase Firestore, permitiendo recopilar, procesar y almacenar datos provenientes de múltiples sensores ambientales en tiempo real. El proyecto integra hardware, firmware embebido y backend cloud dentro de un ecosistema IoT completo.
+
+Tecnologías utilizadas
+ESP32
+C++ (Arduino Framework)
+Node.js
+Express.js
+MQTT / MQTTS
+Firebase Firestore
+OpenSSL
+JSON
+IoT Sensors
+Hardware y sensores integrados
+MPU6050 (vibraciones y movimiento)
+HC-SR04 (nivel de agua)
+Sensor de flujo
+Pluviómetro
+Pantallas OLED SSD1306
+Servomotores
+Buzzer de alerta
+Funcionalidades principales
+Monitoreo de variables hidráulicas en tiempo real
+Evaluación automática de niveles de riesgo
+Automatización de protocolos de emergencia
+Comunicación segura mediante MQTT con TLS/SSL
+Persistencia de datos en Firebase Firestore
+Procesamiento local con Edge Computing
+Visualización de métricas en pantallas OLED
+Arquitectura IoT escalable y desacoplada
+
+---------------------------------------------------------------------
+
+Vehículo Autónomo Inteligente con Arduino (IoT)
+
+Sistema embebido desarrollado con Arduino Mega enfocado en navegación autónoma y detección de obstáculos en tiempo real. El proyecto integra sensores ultrasónicos, control de motores mediante puente H y lógica de decisión autónoma para permitir que el vehículo detecte obstáculos, evalúe rutas disponibles y reaccione automáticamente evitando colisiones.
+
+El sistema incorpora control de movimiento, escaneo lateral mediante servomotor y señalización visual con LEDs para representar acciones como avance, giro y retroceso, simulando el comportamiento básico de un vehículo autónomo.
+
+Tecnologías y componentes utilizados
+Arduino Mega ADK
+C/C++ (Arduino IDE)
+Sensor ultrasónico HC-SR04
+Servomotor
+Puente H L298N
+Motores DC
+Electrónica y prototipado
+Sistemas embebidos
+Funcionalidades principales
+Navegación autónoma
+Detección de obstáculos en múltiples direcciones
+Toma de decisiones automática
+Control de motores y movimiento
+Escaneo lateral mediante servomotor
+Sistema visual de señalización LED
+Retroceso y evasión automática de colisiones
+
+-------------------------------------------------------------------
+
+Predicción de Precios de Viviendas con Machine Learning (DATA)
+
+Proyecto de análisis de datos y Machine Learning enfocado en la predicción de precios de viviendas utilizando técnicas avanzadas de regresión y procesamiento de datos. El sistema trabaja con un dataset inmobiliario multifactorial compuesto por más de 80 características estructurales, económicas y geográficas, aplicando un pipeline completo de ciencia de datos para generar estimaciones precisas del valor de propiedades residenciales.
+
+El proyecto abarca todas las etapas del ciclo de vida de un modelo predictivo: análisis exploratorio de datos (EDA), limpieza y transformación de datos, ingeniería de características, entrenamiento de modelos y evaluación mediante métricas de regresión. Además, se implementaron técnicas de optimización y selección de variables para mejorar el rendimiento predictivo.
+
+Tecnologías utilizadas
+Python
+Pandas
+NumPy
+Scikit-learn
+Matplotlib
+Seaborn
+Jupyter Notebook
+Machine Learning
+Modelos de Regresión
+Funcionalidades principales
+Análisis exploratorio de datos (EDA)
+Limpieza y transformación de datasets complejos
+Manejo de valores nulos y variables categóricas
+Ingeniería y selección de características
+Entrenamiento de modelos de regresión
+Evaluación mediante métricas como RMSE y R²
+Predicción automatizada de precios de viviendas
+Visualización de patrones y correlaciones en datos
+
+
+
+---------------------------------------------------------
+
+(DATA)
+================================================================================
+PROYECTO: Predicción Inteligente de Precios de Viviendas
+ROL: Data Scientist / Machine Learning Engineer
+================================================================================
+
+DESCRIPCIÓN GENERAL:
+Este proyecto implementa un ecosistema completo de ciencia de datos orientado a 
+la estimación precisa de valores inmobiliarios. A través de un robusto pipeline 
+de procesamiento, el sistema analiza un dataset multifactorial con más de 80 
+variables (estructurales, económicas y geográficas), transformando datos brutos 
+en insights accionables y predicciones de alta fidelidad.
+
+El desarrollo se centró en la creación de un flujo de trabajo reproducible que 
+abarca desde la auditoría inicial de los datos hasta el despliegue de modelos 
+de regresión optimizados, garantizando la integridad de la información y la 
+escalabilidad del análisis.
+
+TECNOLOGÍAS UTILIZADAS:
+----------------------
+* Lenguaje: Python
+* Manipulación de Datos: Pandas, NumPy
+* Machine Learning: Scikit-learn (Regresión Avanzada)
+* Visualización & EDA: Matplotlib, Seaborn
+* Entorno de Desarrollo: Jupyter Notebook
+* Métricas de Rendimiento: RMSE, R², MAE
+
+FUNCIONALIDADES Y HABILIDADES CLAVE:
+-----------------------------------
+1. PIPELINE DE DATOS PROFESIONAL: Implementación de limpieza automatizada, 
+   tratamiento sofisticado de valores nulos y codificación de variables 
+   categóricas (One-Hot Encoding / Label Encoding).
+
+2. INGENIERÍA DE CARACTERÍSTICAS (FEATURE ENGINEERING): Creación y selección de 
+   variables críticas mediante análisis de correlación y reducción de 
+   dimensionalidad para mejorar la potencia predictiva.
+
+3. ANÁLISIS ESTADÍSTICO AVANZADO (EDA): Identificación de patrones ocultos, 
+   detección de outliers y validación de hipótesis sobre las tendencias del 
+   mercado inmobiliario.
+
+4. MODELADO Y OPTIMIZACIÓN: Entrenamiento de modelos de regresión con ajuste 
+   de hiperparámetros para minimizar el error predictivo.
+
+5. EVALUACIÓN DE RIGOR: Uso de métricas estándar de la industria para validar 
+   la fiabilidad de las estimaciones frente a datos no vistos, asegurando la 
+   capacidad de generalización del modelo.
+
+================================================================================
+Desarrollado con un enfoque en código limpio, escalabilidad y rigor analítico.
+================================================================================
+
+
+----------------------------------------------------------
+
+
+Administración de Servidores Web con IIS y Active Directory  (NETWORKING)
+
+Proyecto de administración de servidores enfocado en la implementación y configuración de un entorno web seguro utilizando Internet Information Services (IIS) integrado con Active Directory sobre Windows Server. La práctica consistió en desplegar un servidor web corporativo con autenticación basada en dominio, control de acceso por usuarios y grupos, y políticas de autorización administradas centralmente.
+
+El proyecto abarca instalación de roles y características de IIS, configuración DNS, autenticación Windows, permisos NTFS y reglas de autorización mediante Active Directory, simulando escenarios reales de administración de infraestructura empresarial y seguridad de servicios web internos.
+
+Tecnologías y herramientas utilizadas
+Windows Server
+IIS (Internet Information Services)
+Active Directory
+DNS
+NTFS Permissions
+Windows Authentication
+ASP.NET
+Microsoft Edge
+Funcionalidades principales
+Instalación y configuración de IIS
+Integración de autenticación con Active Directory
+Implementación de sitios web internos corporativos
+Gestión de permisos NTFS y reglas de autorización
+Restricción de acceso por usuarios y grupos
+Configuración de autenticación Windows
+Resolución DNS mediante hostname personalizado
+Administración centralizada de servicios web
+Conceptos implementados
+Administración de servidores Windows
+Active Directory Domain Services (AD DS)
+Seguridad y autorización web
+Autenticación integrada de Windows
+Gestión de usuarios y grupos del dominio
+Configuración de servicios IIS
+Infraestructura de red empresarial
+Control de acceso basado en roles (RBAC)
+
+------------------------------------------------------------
+Configuración de VLANs y Switches Cisco   (NETWORKING)
+
+Proyecto práctico de networking enfocado en la segmentación de redes mediante VLANs y la configuración de switches Cisco utilizando interfaces web y línea de comandos (CLI). La práctica implementa una topología de red con múltiples dispositivos conectados mediante enlaces troncales y puertos de acceso, permitiendo la comunicación segura y organizada entre equipos dentro de una misma VLAN.
+
+El proyecto abarca la configuración de direcciones IP estáticas, gateways, enlaces trunk, asignación de puertos access y administración remota mediante PuTTY, reforzando conceptos fundamentales de switching, segmentación de tráfico y administración de redes empresariales.
+
+Tecnologías y herramientas utilizadas
+Cisco IOS
+VLANs
+Switching
+CLI Cisco
+PuTTY
+Telnet / SSH
+Ethernet Networking
+Configuración IP estática
+Funcionalidades principales
+Creación y administración de VLANs
+Configuración de puertos Access y Trunk
+Segmentación lógica de redes
+Comunicación entre switches Cisco
+Administración remota mediante CLI
+Configuración de gateways y direccionamiento IP
+Verificación de conectividad mediante pruebas Ping
+Resolución de conflictos y problemas de red
+Conceptos implementados
+VLAN 802.1Q
+Switching Layer 2
+Trunking entre switches
+Segmentación de tráfico
+Direccionamiento IPv4
+Gestión de infraestructura de red
+Configuración básica de dispositivos Cisco
+
+
+--------------------------------
+Configuración de VLANs y VTP en Redes Cisco (NETWORKING)
+
+Proyecto de networking orientado a la implementación y administración centralizada de VLANs utilizando switches Cisco y el protocolo VTP (VLAN Trunking Protocol). La práctica consistió en configurar una infraestructura de red segmentada mediante switches en modo servidor y cliente, permitiendo la propagación automática de VLANs dentro de la topología.
+
+El proyecto incluye configuración de enlaces troncales, gestión remota mediante CLI, asignación de direcciones IP y sincronización automática de configuraciones VTP, reforzando conceptos esenciales de switching y administración de redes empresariales.
+
+Tecnologías y herramientas utilizadas
+Cisco IOS
+VLANs
+VTP (VLAN Trunking Protocol)
+Switching Cisco
+CLI Cisco
+PuTTY
+Telnet / SSH
+Networking IPv4
+Funcionalidades principales
+Configuración de switches en modo VTP Server y Client
+Creación y propagación automática de VLANs
+Configuración de enlaces Trunk entre switches
+Administración centralizada de redes VLAN
+Segmentación lógica de tráfico
+Configuración y validación de direccionamiento IP
+Verificación mediante comandos Cisco IOS
+Gestión de infraestructura de switching empresarial
+Conceptos implementados
+VLAN Management
+VTP Domain Configuration
+Trunking 802.1Q
+Switching Layer 2
+Administración centralizada de VLANs
+Configuración de puertos Cisco
+Topologías de red segmentadas
+Resolución y validación de conectividad de red
+
