@@ -222,25 +222,21 @@ $(
 
       $button.prop("disabled", true).text("Enviando...");
 
-      fetch($form.attr("action"), {
+      $.ajax({
+        url: $form.attr("action"),
         method: "POST",
-        body: new FormData($form[0]),
-        headers: { Accept: "application/json" },
-      })
-        .then((response) => {
-          if (response.ok) {
-            $form.fadeOut(function () {
-              $response.fadeIn();
-            });
-          } else {
-            alert("Ocurrió un error. Por favor, intenta de nuevo.");
-            $button.prop("disabled", false).text("Enviar Mensaje");
-          }
-        })
-        .catch((error) => {
-          alert("Error de conexión. Intenta más tarde.");
+        data: $form.serialize(),
+        dataType: "json",
+        success: function () {
+          $form.fadeOut(function () {
+            $response.fadeIn();
+          });
+        },
+        error: function () {
+          alert("Ocurrió un error. Por favor, intenta de nuevo.");
           $button.prop("disabled", false).text("Enviar Mensaje");
-        });
+        },
+      });
     });
 
     // Inicializa los carruseles dentro de los modales cuando estos se muestran
