@@ -232,8 +232,16 @@ $(
             $response.fadeIn();
           });
         },
-        error: function () {
-          alert("Ocurrió un error. Por favor, intenta de nuevo.");
+        error: function (xhr) {
+          if (xhr.status === 0) {
+            alert(
+              "Error de conexión. Si es tu primer envío, asegúrate de activar el correo en el mensaje que FormSubmit te envió.",
+            );
+          } else {
+            alert(
+              "Error al enviar. Intenta realizar un envío directo o revisa tu bandeja de SPAM.",
+            );
+          }
           $button.prop("disabled", false).text("Enviar Mensaje");
         },
       });
