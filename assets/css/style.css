@@ -2201,6 +2201,13 @@ body {
   border-bottom-color: #196fc2;
 }
 
+#form-response {
+    margin-top: 30px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
 textarea.form-control {
   margin-top: 50px;
   min-height: 150px;
@@ -2468,4 +2475,18 @@ textarea.form-control {
 .modal-body .carousel-indicators li.active {
   background-color: #196fc2;
   border-color: #196fc2;
+}
+
+/* Escala las imágenes de los modales a un tamaño estándar más pequeño */
+.modal-body .img-res {
+  width: 100%;
+  height: 300px; /* Altura fija mediana para consistencia */
+  object-fit: contain; /* Escala la imagen para que se vea completa */
+  background-color: transparent; /* Sin fondos oscuros */
+}
+
+@media only screen and (max-width: 767px) {
+  .modal-body .img-res {
+    height: 180px; /* Altura más pequeña para móviles */
+  }
 }
