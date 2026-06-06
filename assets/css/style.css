@@ -266,11 +266,9 @@ body {
 /* Image responsive */
 .img-res {
   display: block;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: auto;
   max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
 }
 
 /* HEADER
@@ -430,7 +428,7 @@ body {
 /* HERO
 ================================================== */
 .hero {
-  background: url(../img/hero4.png) center no-repeat;
+  background: url(../img/hero4.webp) center no-repeat;
   height: 100%;
   width: 100%;
   display: table;
@@ -2056,7 +2054,7 @@ body {
 
 /* Sections background: Quote */
 .section-quote {
-  background: url(../img/hero32.png) center no-repeat fixed;
+  background: url(../img/hero32.webp) center no-repeat fixed;
 }
 
 .section-quote p {
@@ -2070,7 +2068,7 @@ body {
 
 /* Sections background: Me */
 .section-me {
-  background: url(../img/portfolio-7.jpg) center no-repeat fixed;
+  background: url(../img/portfolio-7.webp) center no-repeat fixed;
 }
 
 .section-me h2 {
@@ -2081,7 +2079,7 @@ body {
 
 /* Sections background: Twitter */
 .section-twitter {
-  background: url(../img/portfolio-8.jpg) center no-repeat fixed;
+  background: url(../img/portfolio-8.webp) center no-repeat fixed;
 }
 
 .section-twitter .container {
@@ -2202,11 +2200,18 @@ body {
 }
 
 #form-response {
-    margin-top: 30px;
-    animation: fadeIn 0.5s ease-in-out;
+  margin-top: 30px;
+  animation: fadeIn 0.5s ease-in-out;
 }
 
-@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 textarea.form-control {
   margin-top: 50px;
