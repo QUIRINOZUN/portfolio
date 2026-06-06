@@ -428,7 +428,7 @@ body {
 /* HERO
 ================================================== */
 .hero {
-  background: url(../img/hero4.webp) center no-repeat;
+  background: url(../img/hero4_resultado.webp) center no-repeat;
   height: 100%;
   width: 100%;
   display: table;
@@ -2054,7 +2054,7 @@ body {
 
 /* Sections background: Quote */
 .section-quote {
-  background: url(../img/hero32.webp) center no-repeat fixed;
+  background: url(../img/hero32_resultado.webp) center no-repeat fixed;
 }
 
 .section-quote p {
@@ -2068,7 +2068,7 @@ body {
 
 /* Sections background: Me */
 .section-me {
-  background: url(../img/portfolio-7.webp) center no-repeat fixed;
+  background: url(../img/portfolio-7_resultado.webp) center no-repeat fixed;
 }
 
 .section-me h2 {
@@ -2079,7 +2079,7 @@ body {
 
 /* Sections background: Twitter */
 .section-twitter {
-  background: url(../img/portfolio-8.webp) center no-repeat fixed;
+  background: url(../img/portfolio-1_resultado.webp) center no-repeat fixed;
 }
 
 .section-twitter .container {
